@@ -16,7 +16,8 @@ annotation = re.compile(r"(.*?);.*")
 codes = []
 
 OP2 = {
-    'MOV': ASM.MOV
+    'MOV': ASM.MOV, 
+    'ADD': ASM.ADD
 }
 
 OP1 = {
